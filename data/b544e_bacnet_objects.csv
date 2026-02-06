@@ -1,0 +1,12 @@
+device,protocol,row_no,object,object_type,object_instance,value_range_or_enum,device_instance_rule,mac_address_rule,sv_source_doc,sv_source_ref
+B544(E),BACnet MS/TP,1,Indoor Temperature,AI,000001,-20-79,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,2,Set Temperature,AI,000002,18-32,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,1,ON/OF Status,BI,000000,0-Off/1-On,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,2,SLEEP Status,BI,000003,0-No/1-Yes,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,3,ELECTRICAL,BI,000004,0-No/1-Yes,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,1,Mode,MI,000001,FAN=00 HEAT=01 COOL=02 DRY=03 AUTO=04,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,2,Fan,MI,000002,AUTO=00 HIGH=01 MIDDLE=03 LOW=02,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,3,Swing,MI,000003,NO SWING=0 UP/DOWN=1 LEFT/RIGHT=2 UP/DOWN/LEFT/RI GHT=3,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,4,Error,MI,000006,1-255 See Error,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,1,Set Temperature,AV,000000,18-32,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143
+B544(E),BACnet MS/TP,2,Set Humiduty,AV,000001,0-100%,Device Instance: 10000 + Set address,Device MSTP MAC address:16+ Set address,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=143

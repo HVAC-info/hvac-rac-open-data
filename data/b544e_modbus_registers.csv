@@ -1,0 +1,26 @@
+device,protocol,function_code,function_name,direction,no,object,object_type,address,sv_source_doc,sv_source_ref,value_range,comment
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,1,ON/OFF status,BI,0000,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-OFF/1-ON,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,2,Sleep status,BI,0003,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-OFF/1-ON,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,3,Electric heater status,BI,0004,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-OFF/1-ON,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,4,Energy-saving status,BI,0009,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-OFF/1-ON,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,5,Defrost status,BI,0010,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,6,Compressor status,BI,0011,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-OFF/1-ON,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,7,Super mode,BI,0014,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x02,Read Discrete Inputs,read,8,Mute mode,BI,0015,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,1,Indoor temperature,AI,0001,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,-20-79,
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,2,The setting temperature,AI,0002,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,18-32,
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,3,Mode,MI,0007,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,,FAN=00；HEAT=01； COOL=02；DRY=03； AUTO CODE=05; AUTO HEAT=06 AUTO FAN=07;
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,4,Fan speed,MI,0008,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,,AUTO=00；HIGH=01 MIDDLE=03；LOW=02
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,5,Swing,MI,0009,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,,NO SWING=0； LEFT/RIGHT=1; UP/DOWN=2; UP/DOWN/LEFT/RIGHT=3
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,6,Fault,MI,0012,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,,1-255 See Error Code table
+B544(E),MODBUS-RTU,0x04,Read Input Registers,read,7,Outlet air temperature,AI,0015,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=135,-20-79,
+B544(E),MODBUS-RTU,0x05,Write Single Coil,write,1,ON/OFF setting,BV,0000,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,0-OFF/1-ON,
+B544(E),MODBUS-RTU,0x05,Write Single Coil,write,2,Sleep setting,BV,0003,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x05,Write Single Coil,write,3,Electric heater setting,BV,0004,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x05,Write Single Coil,write,4,Energy-saving mode,BV,0009,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x05,Write Single Coil,write,5,Super mode,BV,0013,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x05,Write Single Coil,write,6,Mute mode,BV,0014,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,0-No/1-Yes,
+B544(E),MODBUS-RTU,0x06,Write Single Holding Register,write,1,Temperature setting,AV,0000,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,18-32,
+B544(E),MODBUS-RTU,0x06,Write Single Holding Register,write,2,Mode setting,MO,0002,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,,FAN=00；HEAT=01； COOL=02；DRY=03； AUTO=04
+B544(E),MODBUS-RTU,0x06,Write Single Holding Register,write,3,Fan speed setting,MO,0003,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,,AUTO=00；HIGH=01 MIDDLE=03；LOW=02
+B544(E),MODBUS-RTU,0x06,Write Single Holding Register,write,4,Swing setting,MO,0004,cbd361e9-ea97-41bb-bc7c-b9da1bd1f923.pdf,page=136,,NO SWING=0；UP/DOWN=1 LEFT/RIGHT=2 UP/DOWN/LEFT/RIGHT=3
