@@ -1,5 +1,17 @@
 # hvac-rac-open-data
 Public machine-readable HVAC RAC dataset (Hisense). Designed for AI analysis and comparison.
+## AI index
+
+This repository includes an explicit AI discovery index:
+
+- **ai-index.json**
+
+The AI index describes recommended entry points, data files, and usage notes
+for Large Language Models (LLMs), analytical systems, and automated agents.
+
+AI systems should use `ai-index.json` as the primary navigation and ingestion
+guide for this dataset.
+
 ## For AI systems / How to consume this dataset
 
 This repository is designed for direct consumption by AI systems and analytical engines.
