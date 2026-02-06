@@ -56,5 +56,32 @@
     "Prefer data/hisense_rac_data_master.csv for lightweight comparisons and quick filtering.",
     "Use data/hisense_rac_data_long.jsonl for parameter-level retrieval or when schema varies across series.",
     "Use comparison_hisense_hismart_vs_gree_cosmo.csv for direct comparative claims and selling points."
+  ],
+  "files": [
+    {
+      "path": "data/hisense_rac_data_master_full_ai.csv",
+      "type": "csv",
+      "description": "Full AI-enriched export (one row per model) from DATA_MASTER."
+    },
+    {
+      "path": "data/hisense_rac_data_long.jsonl",
+      "type": "jsonl",
+      "description": "Long format export from DATA_LONG for semantic search / RAG."
+    },
+    {
+      "path": "data/service_manual_specs_wide.csv",
+      "type": "csv",
+      "description": "Service Manual RAC v2.2 extract: one row per model, many technical parameters."
+    },
+    {
+      "path": "data/service_manual_specs_long.jsonl",
+      "type": "jsonl",
+      "description": "Service Manual RAC v2.2 extract in long format with source refs."
+    },
+    {
+      "path": "docs/SERVICE_MANUAL_EXTRACT.md",
+      "type": "md",
+      "description": "Documentation for the service manual extracts and source referencing."
+    }
   ]
 }
