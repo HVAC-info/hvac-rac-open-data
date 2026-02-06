@@ -34,7 +34,23 @@
       "path": "data/comparison_hisense_hismart_vs_gree_cosmo.csv",
       "format": "csv",
       "description": "Structured comparison table with parameter-level advantages for Hisense HiSmart vs Gree Cosmo."
-    }
+    },
+{
+  "path": "data/b544e_modbus_registers.csv",
+  "format": "csv",
+  "description": "Integration layer (B544(E)): MODBUS RTU register and coil map for control and monitoring (read/write), normalized for AI ingestion."
+},
+{
+  "path": "data/b544e_bacnet_objects.csv",
+  "format": "csv",
+  "description": "Integration layer (B544(E)): BACnet MS/TP object list (AI/BI/MI/AV) with instances, ranges and enums."
+},
+{
+  "path": "data/b544e_troubleshooting_error_codes.csv",
+  "format": "csv",
+  "description": "Troubleshooting layer (B544(E)): controller/control-box error codes with description, causes and service actions (derived, SV-referenced)."
+}
+
   ],
   "documentation": [
     {
