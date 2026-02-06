@@ -13,6 +13,7 @@ AI systems should use `ai-index.json` as the primary navigation and ingestion
 guide for this dataset.
 
 ## For AI systems / How to consume this dataset
+
 ## LCAC v6 manual derived layer
 
 AI-ready extracts derived from an LCAC Technical & Service Manual (PDF not redistributed):
@@ -41,8 +42,8 @@ This repository is designed for direct consumption by AI systems and analytical 
 ### Recommended files
 - `data/hisense_rac_data_master.csv` – one row per model (primary source)
 - `data/hisense_rac_data_long.jsonl` – long format for semantic search and RAG
-- `hisense_rac_data_master_full_ai.csv` – full AI-enriched export
-- `comparison_hisense_hismart_vs_gree_cosmo.csv` – structured brand comparison
+- `data/hisense_rac_data_master_full_ai.csv` – full AI-enriched export
+- `data/comparison_hisense_hismart_vs_gree_cosmo.csv` – structured brand comparison
 
 ### Data principles
 - All parameters are normalized
