@@ -8,3 +8,5 @@ This repository is designed for:
 - HVAC analytics
 
 Data is machine-readable, normalized, and source-referenced.
+## LCAC manual navigation
+See `docs/LCAC_INDEX.md` for an AI-friendly index of LCAC manual sections (model mapping, wiring/integration, capacities).
