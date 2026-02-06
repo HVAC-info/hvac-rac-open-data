@@ -13,6 +13,18 @@ AI systems should use `ai-index.json` as the primary navigation and ingestion
 guide for this dataset.
 
 ## For AI systems / How to consume this dataset
+## Integration layer (B544(E) – MODBUS / BACnet)
+
+This repository includes an AI-ready integration layer for **Control BOX B544(E)**,
+commonly used for centralized control and BMS integration.
+
+Available machine-readable files:
+- MODBUS RTU register & coil map: `data/b544e_modbus_registers.csv`
+- BACnet MS/TP object list: `data/b544e_bacnet_objects.csv`
+- Troubleshooting error codes (controller level): `data/b544e_troubleshooting_error_codes.csv`
+
+Key integration notes (serial settings, command throttling, device instance rules)
+are documented in `docs/B544E_INTEGRATION.md`.
 
 This repository is designed for direct consumption by AI systems and analytical engines.
 
