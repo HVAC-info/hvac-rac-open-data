@@ -1,0 +1,25 @@
+parameter_code,parameter_description,sv_source_doc,sv_source_ref
+6,Indoor unit air inlet temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+7,Indoor unit coil sensor temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+8,Outdoor unit ambient sensor temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+9,Discharge temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+10,Suction temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+11,Outdoor coil temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+12,Discharge pressure,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+13,Suction pressure,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+14,Outdoor EEV opening,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+15,AC current input,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+16,AC voltage,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+24,Error code,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+25,Drive error code,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+26,Indoor unit air outlet temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+28,Compressor current,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+29,Indoor unit room temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+30,Indoor unit coil inlet temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+31,Indoor unit coil outlet temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+32,Outdoor unit condenser inlet temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+33,Outdoor unit condenser outlet temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+43,Outdoor unit defrost temperature,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+57,Outdoor fan 1 speed,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+58,Outdoor fan 2 speed,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246
+60,Indoor fan speed,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 246

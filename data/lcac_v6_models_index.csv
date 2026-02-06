@@ -1,0 +1,63 @@
+section,model_code,unit_role,sv_source_doc,sv_source_ref
+Duct,ADT-09UX4RBL8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,ADT-12UX4RBL8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,ADT-14UX4RCL8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,ADT-18UX4RCL8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,ADT-14UX4RGM8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,ADT-18UX4RGM8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-21UX4RFM8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-24UX4RFM8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-36UX4REH8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-42UX4REH8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-48UX4REH8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-60UX4REH8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-75UX4RPH8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,AUD-85UX4RPH8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Duct,ADT-24UX4RCL8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,AUC-14UR4RJC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,AUC-18UR4RJC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,ACT-21UR4RJC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,ACT-24UR4RJC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,AUC-36UR4RKC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,AUC-42UR4RKC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,AUC-48UR4RKC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Cassette,AUC-60UR4RKC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Ceiling & Floor,AVT-21UR4RB8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Ceiling & Floor,AVT-24UR4RB8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Ceiling & Floor,AUV-36UR4RC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Ceiling & Floor,AUV-42UR4RC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Ceiling & Floor,AUV-48UR4RC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Ceiling & Floor,AUV-60UR4RC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Compact Cassette,ACT-09UR4RCC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Compact Cassette,ACT-12UR4RCC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Compact Cassette,ACT-14UR4RCC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Compact Cassette,ACT-18UR4RCC8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Super Inverter,AUW-14U4RS7,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Super Inverter,AUW-18U4RS7,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Super Inverter,AUW-21U4RJ7,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Super Inverter,AUW-24U4RJ7,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Super Inverter,AUW-36U4RK7,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Super Inverter,AUW-48U6RQ7,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Console,AKT-09UR4RK8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Console,AKT-12UR4RK8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Console,AKT-14UR4RK8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Console,AKT-18UR4RK8,indoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-09U4RS8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-12U4RS8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-14U4RJ8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-18U4RJ8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-21U4RK8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-24U4RK8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-36U4RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-42U4RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-48U4RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-36U6RN8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-42U6RN8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-48U6RN8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-36U6RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-42U6RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-48U6RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-60U6RW8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-75U6RZ8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Turbo Inverter,AUW-85U6RZ8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
+Floor-standing,AUF-48UR4RMPA8,outdoor,17cdc50d-d0c2-4e37-8186-20f7baf84d6f.pdf,page 2
