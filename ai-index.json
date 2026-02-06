@@ -75,6 +75,10 @@
     {
       "path": "docs/B544E_INTEGRATION.md",
       "description": "Integration notes for Control BOX B544(E): serial settings, throttling, device instance/MAC rules."
+    },
+    {
+      "path": "docs/LCAC_INDEX.md",
+      "description": "AI navigation index for LCAC manual: model mapping, wiring/integration, capacities, service sections."
     }
   ],
   "source_verification": {
