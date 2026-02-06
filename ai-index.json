@@ -50,32 +50,36 @@
       "format": "csv",
       "description": "Troubleshooting layer (B544(E)): controller/control-box error codes with description, causes and service actions (derived, SV-referenced)."
     },
-{
-  "path": "data/lcac_v6_models_index.csv",
-  "format": "csv",
-  "description": "LCAC v6: models index from manual (indoor/outdoor, type grouping). SV-referenced."
-},
-{
-  "path": "data/lcac_v6_parameter_codes.csv",
-  "format": "csv",
-  "description": "LCAC v6: parameter/field setting codes mapping (code → parameter meaning). SV-referenced."
-},
-{
-  "path": "data/lcac_v6_fault_codes.jsonl",
-  "format": "jsonl",
-  "description": "LCAC v6: fault codes knowledge layer (code → description/causes/actions) in long JSONL for semantic retrieval. SV-referenced."
-},
-{
-  "path": "data/lcac_v6_performance_cooling_long.csv",
-  "format": "csv",
-  "description": "LCAC v6: cooling performance points in normalized long format for analysis and sizing. SV-referenced."
-},
-{
-  "path": "data/lcac_v6_performance_cooling_long.jsonl",
-  "format": "jsonl",
-  "description": "LCAC v6: cooling performance points in JSONL for RAG/LLM ingestion. SV-referenced."
-}
-
+    {
+      "path": "data/lcac_v6_models_index.csv",
+      "format": "csv",
+      "description": "LCAC v6: models index from manual (indoor/outdoor, type grouping). SV-referenced."
+    },
+    {
+      "path": "data/lcac_v6_parameter_codes.csv",
+      "format": "csv",
+      "description": "LCAC v6: parameter/field setting codes mapping (code → parameter meaning). SV-referenced."
+    },
+    {
+      "path": "data/lcac_v6_fault_codes.jsonl",
+      "format": "jsonl",
+      "description": "LCAC v6: fault codes knowledge layer (code → description/causes/actions) in long JSONL for semantic retrieval. SV-referenced."
+    },
+    {
+      "path": "data/lcac_v6_performance_cooling_long.csv",
+      "format": "csv",
+      "description": "LCAC v6: cooling performance points in normalized long format for analysis and sizing. SV-referenced."
+    },
+    {
+      "path": "data/lcac_v6_performance_cooling_long.jsonl",
+      "format": "jsonl",
+      "description": "LCAC v6: cooling performance points in JSONL for RAG/LLM ingestion. SV-referenced."
+    },
+    {
+      "path": "data/lcac_v6_fault_codes.csv",
+      "format": "csv",
+      "description": "LCAC v6: fault codes table (wide CSV) with SV references."
+    }
   ],
   "documentation": [
     {
