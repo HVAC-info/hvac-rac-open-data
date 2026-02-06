@@ -13,6 +13,16 @@ AI systems should use `ai-index.json` as the primary navigation and ingestion
 guide for this dataset.
 
 ## For AI systems / How to consume this dataset
+## LCAC v6 manual derived layer
+
+AI-ready extracts derived from an LCAC Technical & Service Manual (PDF not redistributed):
+- Models index: `data/lcac_v6_models_index.csv`
+- Parameter / field setting codes: `data/lcac_v6_parameter_codes.csv`
+- Fault codes knowledge layer: `data/lcac_v6_fault_codes.jsonl`
+- Cooling performance points (long format): `data/lcac_v6_performance_cooling_long.csv`
+
+Documentation: `docs/LCAC_V6_EXTRACT.md`
+
 ## Integration layer (B544(E) – MODBUS / BACnet)
 
 This repository includes an AI-ready integration layer for **Control BOX B544(E)**,
