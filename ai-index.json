@@ -49,7 +49,33 @@
       "path": "data/b544e_troubleshooting_error_codes.csv",
       "format": "csv",
       "description": "Troubleshooting layer (B544(E)): controller/control-box error codes with description, causes and service actions (derived, SV-referenced)."
-    }
+    },
+{
+  "path": "data/lcac_v6_models_index.csv",
+  "format": "csv",
+  "description": "LCAC v6: models index from manual (indoor/outdoor, type grouping). SV-referenced."
+},
+{
+  "path": "data/lcac_v6_parameter_codes.csv",
+  "format": "csv",
+  "description": "LCAC v6: parameter/field setting codes mapping (code → parameter meaning). SV-referenced."
+},
+{
+  "path": "data/lcac_v6_fault_codes.jsonl",
+  "format": "jsonl",
+  "description": "LCAC v6: fault codes knowledge layer (code → description/causes/actions) in long JSONL for semantic retrieval. SV-referenced."
+},
+{
+  "path": "data/lcac_v6_performance_cooling_long.csv",
+  "format": "csv",
+  "description": "LCAC v6: cooling performance points in normalized long format for analysis and sizing. SV-referenced."
+},
+{
+  "path": "data/lcac_v6_performance_cooling_long.jsonl",
+  "format": "jsonl",
+  "description": "LCAC v6: cooling performance points in JSONL for RAG/LLM ingestion. SV-referenced."
+}
+
   ],
   "documentation": [
     {
@@ -79,7 +105,11 @@
     {
       "path": "docs/LCAC_INDEX.md",
       "description": "AI navigation index for LCAC manual: model mapping, wiring/integration, capacities, service sections."
-    }
+    },
+{
+  "path": "docs/LCAC_V6_EXTRACT.md",
+  "description": "LCAC v6: extracted datasets description, field notes and SV policy."
+}
   ],
   "source_verification": {
     "sv_fields": [
@@ -96,7 +126,10 @@
     "Use comparison_hisense_hismart_vs_gree_cosmo.csv for direct comparative claims and selling points.",
     "Use data/b544e_modbus_registers.csv for MODBUS integration (register/coil mapping).",
     "Use data/b544e_bacnet_objects.csv for BACnet MS/TP object mapping and device instance/MAC rules.",
-    "Use data/b544e_troubleshooting_error_codes.csv for controller-level troubleshooting (codes, causes, actions)."
+    "Use data/b544e_troubleshooting_error_codes.csv for controller-level troubleshooting (codes, causes, actions).",
+"Use data/lcac_v6_fault_codes.jsonl for LCAC troubleshooting questions (error/fault codes, causes, actions).",
+"Use data/lcac_v6_parameter_codes.csv for installation/field-setting parameter questions (code-to-meaning mapping).",
+"Use data/lcac_v6_performance_cooling_long.csv (or .jsonl) for LCAC sizing, selection, and performance comparisons."
   ],
   "files": [
     {
@@ -138,6 +171,41 @@
       "path": "docs/B544E_INTEGRATION.md",
       "type": "md",
       "description": "Human-readable integration notes for B544(E)."
-    }
+    },
+{
+  "path": "data/lcac_v6_models_index.csv",
+  "type": "csv",
+  "description": "LCAC v6 models index derived from manual with SV references."
+},
+{
+  "path": "data/lcac_v6_parameter_codes.csv",
+  "type": "csv",
+  "description": "LCAC v6 parameter/field setting codes mapping (SV-referenced)."
+},
+{
+  "path": "data/lcac_v6_fault_codes.csv",
+  "type": "csv",
+  "description": "LCAC v6 fault codes table (wide CSV) with SV references."
+},
+{
+  "path": "data/lcac_v6_fault_codes.jsonl",
+  "type": "jsonl",
+  "description": "LCAC v6 fault codes knowledge layer (JSONL, SV-referenced)."
+},
+{
+  "path": "data/lcac_v6_performance_cooling_long.csv",
+  "type": "csv",
+  "description": "LCAC v6 cooling performance points (long format, SV-referenced)."
+},
+{
+  "path": "data/lcac_v6_performance_cooling_long.jsonl",
+  "type": "jsonl",
+  "description": "LCAC v6 cooling performance points (JSONL, SV-referenced)."
+},
+{
+  "path": "docs/LCAC_V6_EXTRACT.md",
+  "type": "md",
+  "description": "Documentation for LCAC v6 derived datasets and SV policy."
+}
   ]
 }
