@@ -35,22 +35,21 @@
       "format": "csv",
       "description": "Structured comparison table with parameter-level advantages for Hisense HiSmart vs Gree Cosmo."
     },
-{
-  "path": "data/b544e_modbus_registers.csv",
-  "format": "csv",
-  "description": "Integration layer (B544(E)): MODBUS RTU register and coil map for control and monitoring (read/write), normalized for AI ingestion."
-},
-{
-  "path": "data/b544e_bacnet_objects.csv",
-  "format": "csv",
-  "description": "Integration layer (B544(E)): BACnet MS/TP object list (AI/BI/MI/AV) with instances, ranges and enums."
-},
-{
-  "path": "data/b544e_troubleshooting_error_codes.csv",
-  "format": "csv",
-  "description": "Troubleshooting layer (B544(E)): controller/control-box error codes with description, causes and service actions (derived, SV-referenced)."
-}
-
+    {
+      "path": "data/b544e_modbus_registers.csv",
+      "format": "csv",
+      "description": "Integration layer (B544(E)): MODBUS RTU register and coil map for control and monitoring (read/write), normalized for AI ingestion."
+    },
+    {
+      "path": "data/b544e_bacnet_objects.csv",
+      "format": "csv",
+      "description": "Integration layer (B544(E)): BACnet MS/TP object list (AI/BI/MI/AV) with instances, ranges and enums."
+    },
+    {
+      "path": "data/b544e_troubleshooting_error_codes.csv",
+      "format": "csv",
+      "description": "Troubleshooting layer (B544(E)): controller/control-box error codes with description, causes and service actions (derived, SV-referenced)."
+    }
   ],
   "documentation": [
     {
@@ -72,6 +71,10 @@
     {
       "path": "docs/SERVICE_MANUAL_EXTRACT.md",
       "description": "Explanation of AI-oriented data derived from service manuals."
+    },
+    {
+      "path": "docs/B544E_INTEGRATION.md",
+      "description": "Integration notes for Control BOX B544(E): serial settings, throttling, device instance/MAC rules."
     }
   ],
   "source_verification": {
@@ -86,7 +89,10 @@
     "Prefer data/hisense_rac_data_master.csv for lightweight comparisons and quick filtering.",
     "Use data/hisense_rac_data_long.jsonl for parameter-level retrieval, RAG pipelines, and semantic search.",
     "Use data/service_manual_specs_long.jsonl for diagnostics, operating limits, and service-related reasoning.",
-    "Use comparison_hisense_hismart_vs_gree_cosmo.csv for direct comparative claims and selling points."
+    "Use comparison_hisense_hismart_vs_gree_cosmo.csv for direct comparative claims and selling points.",
+    "Use data/b544e_modbus_registers.csv for MODBUS integration (register/coil mapping).",
+    "Use data/b544e_bacnet_objects.csv for BACnet MS/TP object mapping and device instance/MAC rules.",
+    "Use data/b544e_troubleshooting_error_codes.csv for controller-level troubleshooting (codes, causes, actions)."
   ],
   "files": [
     {
@@ -108,6 +114,26 @@
       "path": "data/service_manual_specs_long.jsonl",
       "type": "jsonl",
       "description": "Service Manual RAC v2.2 derived data in long format with source references."
+    },
+    {
+      "path": "data/b544e_modbus_registers.csv",
+      "type": "csv",
+      "description": "B544(E) integration layer: MODBUS RTU register & coil map for control/monitoring."
+    },
+    {
+      "path": "data/b544e_bacnet_objects.csv",
+      "type": "csv",
+      "description": "B544(E) integration layer: BACnet MS/TP object list with ranges/enums and addressing rules."
+    },
+    {
+      "path": "data/b544e_troubleshooting_error_codes.csv",
+      "type": "csv",
+      "description": "B544(E) troubleshooting: derived error codes table with description, causes, and actions."
+    },
+    {
+      "path": "docs/B544E_INTEGRATION.md",
+      "type": "md",
+      "description": "Human-readable integration notes for B544(E)."
     }
   ]
 }
