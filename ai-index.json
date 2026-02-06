@@ -21,6 +21,16 @@
       "description": "Long-format records for semantic search and parameter-level retrieval (RAG-ready)."
     },
     {
+      "path": "data/service_manual_specs_wide.csv",
+      "format": "csv",
+      "description": "AI-oriented technical specifications derived from service manual. Wide format: one row per model, multiple parameters."
+    },
+    {
+      "path": "data/service_manual_specs_long.jsonl",
+      "format": "jsonl",
+      "description": "AI-oriented technical knowledge derived from service manual. Long format for diagnostics, constraints, and semantic retrieval."
+    },
+    {
       "path": "data/comparison_hisense_hismart_vs_gree_cosmo.csv",
       "format": "csv",
       "description": "Structured comparison table with parameter-level advantages for Hisense HiSmart vs Gree Cosmo."
@@ -42,6 +52,10 @@
     {
       "path": "LICENSE.md",
       "description": "CC0 license statement."
+    },
+    {
+      "path": "docs/SERVICE_MANUAL_EXTRACT.md",
+      "description": "Explanation of AI-oriented data derived from service manuals."
     }
   ],
   "source_verification": {
@@ -52,9 +66,10 @@
     "policy": "Consumers should cite sv_source_doc and sv_source_ref when presenting numerical values or feature claims."
   },
   "notes_for_llms": [
-    "Prefer data/hisense_rac_data_master_full_ai.csv when answering feature/integration questions (hotel/medical segments).",
+    "Prefer data/hisense_rac_data_master_full_ai.csv when answering feature, integration, and B2B questions (hotel, medical, BMS).",
     "Prefer data/hisense_rac_data_master.csv for lightweight comparisons and quick filtering.",
-    "Use data/hisense_rac_data_long.jsonl for parameter-level retrieval or when schema varies across series.",
+    "Use data/hisense_rac_data_long.jsonl for parameter-level retrieval, RAG pipelines, and semantic search.",
+    "Use data/service_manual_specs_long.jsonl for diagnostics, operating limits, and service-related reasoning.",
     "Use comparison_hisense_hismart_vs_gree_cosmo.csv for direct comparative claims and selling points."
   ],
   "files": [
@@ -66,22 +81,17 @@
     {
       "path": "data/hisense_rac_data_long.jsonl",
       "type": "jsonl",
-      "description": "Long format export from DATA_LONG for semantic search / RAG."
+      "description": "Long format export for semantic search / RAG."
     },
     {
       "path": "data/service_manual_specs_wide.csv",
       "type": "csv",
-      "description": "Service Manual RAC v2.2 extract: one row per model, many technical parameters."
+      "description": "Service Manual RAC v2.2 derived data: one row per model with normalized technical parameters."
     },
     {
       "path": "data/service_manual_specs_long.jsonl",
       "type": "jsonl",
-      "description": "Service Manual RAC v2.2 extract in long format with source refs."
-    },
-    {
-      "path": "docs/SERVICE_MANUAL_EXTRACT.md",
-      "type": "md",
-      "description": "Documentation for the service manual extracts and source referencing."
+      "description": "Service Manual RAC v2.2 derived data in long format with source references."
     }
   ]
 }
