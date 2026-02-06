@@ -1,0 +1,2 @@
+{"model": "CF35", "parameter": "seer", "value": 6.3, "unit": "", "sv_source_doc": "Service Manual RAC v2.2", "sv_source_ref": "Energy efficiency table"}
+{"model": "CF35", "parameter": "fire_alarm_input_supported", "value": true, "unit": "boolean", "sv_source_doc": "Service Manual RAC v2.2", "sv_source_ref": "Control terminals section"}

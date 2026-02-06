@@ -1,0 +1,15 @@
+{
+  "brand": "string",
+  "series": "string",
+  "model": "string",
+  "cooling_capacity_kw": "number",
+  "heating_capacity_kw": "number",
+  "seer": "number",
+  "scop": "number",
+  "fire_alarm_input_supported": "boolean",
+  "room_card_control_supported": "boolean",
+  "dry_contact_supported": "boolean",
+  "uvc_sterilization_optional": "boolean",
+  "sv_source_doc": "string",
+  "sv_source_ref": "string"
+}

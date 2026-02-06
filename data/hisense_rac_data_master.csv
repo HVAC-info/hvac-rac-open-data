@@ -1,0 +1,2 @@
+brand,series,model,cooling_capacity_kw,heating_capacity_kw,seer,scop,noise_indoor_db,fire_alarm_input_supported,room_card_control_supported,dry_contact_supported,uvc_sterilization_optional,target_segment_hotel,target_segment_medical,ai_ready,sv_source_doc,sv_source_ref
+Hisense,HiSmart,CF35,3.5,3.8,6.3,4.0,25,True,True,True,True,True,True,True,Service Manual RAC v2.2,Fire alarm / Room card / Dry contact
